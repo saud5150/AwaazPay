@@ -8,4 +8,8 @@ class NavigationRouter {
   static void switchToRegistration(BuildContext context) {
     Navigator.pushNamed(context, "/RegistrationScreen");
   }
+
+  static void switchToHomePage(BuildContext context) {
+    Navigator.pushNamed(context, "/HomePage");
+  }
 }

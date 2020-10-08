@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:awaazpay_v1/screens/login_screen.dart';
 import 'package:awaazpay_v1/screens/registration_screen.dart';
+import 'package:awaazpay_v1/home/homepage.dart';
 
 var routes = <String, WidgetBuilder>{
   "/RegistrationScreen": (BuildContext context) => RegistrationScreen(),
   "/LoginScreen": (BuildContext context) => LoginScreen(),
-//"/HomeScreen": (BuildContext context) => HomeScreen(),
+  "/HomeScreen": (BuildContext context) => HomePage(),
+  //
 };
 void main() => runApp(MyApp());
 

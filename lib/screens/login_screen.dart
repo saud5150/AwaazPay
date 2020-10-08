@@ -144,7 +144,8 @@ class _LoginScreenState extends State<LoginScreen> {
       width: double.infinity,
       child: RaisedButton(
         elevation: 5.0,
-        onPressed: () => print('Login Button Pressed'),
+        // onPressed: () => print('Login Button Pressed'),
+        onPressed: () => _navigateHomePage(),
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
@@ -339,5 +340,9 @@ class _LoginScreenState extends State<LoginScreen> {
   }
   _navigateRegistration() {
     NavigationRouter.switchToRegistration(context);
+  }
+
+  _navigateHomePage() {
+    NavigationRouter.switchToHomePage(context);
   }
 }
