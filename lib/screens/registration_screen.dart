@@ -52,7 +52,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         keyboardType: TextInputType.text, // Use email input type for emails.
                         decoration: new InputDecoration(
                           hintText: 'User Name',
-                          labelText: 'Enter your username',
+                          labelText: 'Enter Username',
                           icon: new Icon(Icons.person),
                         )
 
@@ -78,7 +78,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       obscureText: true, // Use secure text for passwords.
                       decoration: new InputDecoration(
                           hintText: 'Password',
-                          labelText: 'Enter your password',
+                          labelText: 'Enter Password',
                           icon: new Icon(Icons.lock)
 
                       )
@@ -90,7 +90,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       obscureText: true, // Use secure text for passwords.
                       decoration: new InputDecoration(
                           hintText: 'Confirm Password',
-                          labelText: 'Enter your confirm password',
+                          labelText: 'Confirm password',
                           icon: new Icon(Icons.lock)
 
                       )

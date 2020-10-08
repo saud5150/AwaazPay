@@ -6,8 +6,8 @@ import 'package:awaazpay_v1/home/homepage.dart';
 var routes = <String, WidgetBuilder>{
   "/RegistrationScreen": (BuildContext context) => RegistrationScreen(),
   "/LoginScreen": (BuildContext context) => LoginScreen(),
-  "/HomeScreen": (BuildContext context) => HomePage(),
-  //
+  "/HomePage": (BuildContext context) => HomePage(),
+
 };
 void main() => runApp(MyApp());
 

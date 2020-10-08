@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:awaazpay_v1/send_money_flow/select_account_page.dart';
 import 'package:awaazpay_v1/widgets/bank_card.dart';
-
+import 'package:awaazpay_v1/utilities/navigation_router.dart';
 class HomePage extends StatefulWidget {
   @override
   HomePageState createState() => HomePageState();
@@ -200,7 +200,7 @@ class HomePageState extends State<HomePage> {
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: Text(
-                    'Send money to',
+                    'Send Money To',
                     style:
                         TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
                   ),
@@ -303,7 +303,7 @@ class HomePageState extends State<HomePage> {
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: Text(
-                    'Utilities',
+                    'Pay Utility Bills',
                     style:
                         TextStyle(fontSize: 14.0, fontWeight: FontWeight.w700),
                   ),
@@ -396,5 +396,9 @@ class HomePageState extends State<HomePage> {
       padding: const EdgeInsets.all(8.0),
       child: BankCard(card: cards[index]),
     );
+  }
+
+  _navigateHomePage() {
+    NavigationRouter.switchToHomePage(context);
   }
 }

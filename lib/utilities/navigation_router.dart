@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:awaazpay_v1/home/homepage.dart';
 
 class NavigationRouter {
   static void switchToLogin(BuildContext context) {
@@ -10,6 +11,10 @@ class NavigationRouter {
   }
 
   static void switchToHomePage(BuildContext context) {
-    Navigator.pushNamed(context, "/HomePage");
+    //Navigator.pushNamed(context, "/HomePage");
+    Navigator.push(context, new MaterialPageRoute(
+        builder: (context) =>
+        new HomePage())
+    );
   }
 }
