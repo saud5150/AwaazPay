@@ -8,13 +8,13 @@ class ProfilePage extends StatefulWidget {
 
 class ProfilePageState extends State<ProfilePage> {
   final List<BankCardModel> cards = [
-    BankCardModel('images/bg_red_card.png', 'Saud Kamran',
+    BankCardModel('images/bg_red_card.png', 'Hamza Abbasi',
         '4221 5168 7464 2283', '08/20', 10000000000),
-    BankCardModel('images/bg_blue_circle_card.png', 'Hassan Butt',
+    BankCardModel('images/bg_blue_circle_card.png', 'Hamza Abbasi',
         '4221 5168 7464 2283', '08/20', 3000000000),
-    BankCardModel('images/bg_purple_card.png', 'Hamiz Ali',
+    BankCardModel('images/bg_purple_card.png', 'Hamza Abbasi',
         '4221 5168 7464 2283', '08/20', 250000000),
-    BankCardModel('images/bg_blue_card.png', 'Kevin De Bruyne',
+    BankCardModel('images/bg_blue_card.png', 'Hamza Abbasi',
         '4221 5168 7464 2283', '08/20', 100000),
   ];
 
@@ -61,7 +61,7 @@ class ProfilePageState extends State<ProfilePage> {
                                           children: <Widget>[
                                             Expanded(
                                               child: Text(
-                                                'Long Hoang',
+                                                'Hamza Abbasi',
                                                 style: TextStyle(
                                                     fontWeight:
                                                         FontWeight.w700),
@@ -125,7 +125,7 @@ class ProfilePageState extends State<ProfilePage> {
                                           children: <Widget>[
                                             Expanded(
                                               child: Text(
-                                                'Email: longhoang.2984@gmail.com',
+                                                'Email: hamza.2984@gmail.com',
                                                 style: TextStyle(
                                                     fontWeight:
                                                         FontWeight.w700),
