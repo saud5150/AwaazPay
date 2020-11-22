@@ -1,7 +1,7 @@
 # AwaazPay
 
 
-## Voice-recognition Banking App
+## Voice Recognition Banking App
 
 Financial app which operates using Audio input from users, in addition to touch input.
 This app supports a complete touch-free experience for users with visual disabilities, or having a low literacy level.
