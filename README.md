@@ -11,3 +11,7 @@ This app supports a complete touch-free experience for users with visual disabil
 ![Login Screen](/readmeImages/login_v2.JPG?raw=true "Login Screen")
 ![Registration Screen](/readmeImages/registrationPage_v1.JPG?raw=true "Registration Screen")
 ![Home Screen](/readmeImages/homeScreen_v3.JPG?raw=true "Home Screen with NavBar")
+
+### Technologies Used:
+#### Flutter
+#### Google Speech to Text API
