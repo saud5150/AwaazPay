@@ -13,5 +13,5 @@ This app supports a complete touch-free experience for users with visual disabil
 ![Home Screen](/readmeImages/homeScreen_v3.JPG?raw=true "Home Screen with NavBar")
 
 ### Technologies Used:
-#### Flutter
+#### Flutter(/https://cdn.worldvectorlogo.com/logos/flutter.svg)
 #### Google Speech to Text API
