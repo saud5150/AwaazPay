@@ -10,7 +10,7 @@ Clone the repo and import the project into Android Studio.
 **Allow microphone access to the app**
 
 ```
-Speak the word "Tutorial" on first screen for an audio guide on how to operate the app
+Speak the word "Tutorial" for an audio guide on how to operate the app
 Speak the word: "Help" for a verbal tutorial on the respective page
 
 Say "Delete" to remove last entered character
@@ -25,3 +25,11 @@ Please allow 3rd party apps to install apk files.
 ```
 Navigate to your Android settings menu then to the security settings. Enable the Install from Unknown Sources option.
 ```
+##Images
+![Alt text](/Screenshots/Welcome.jpg?raw=true "Welcome Page" width="100" height="150")
+![Alt text](/Screenshots/SignUp.jpg?raw=true "Sign Up")
+![Alt text](/Screenshots/Login.jpg?raw=true "Login")
+![Alt text](/Screenshots/OptionMenu.jpg?raw=true "Menu")
+![Alt text](/Screenshots/SendMoney.jpg?raw=true "Send Money")
+![Alt text](/Screenshots/PayBill.jpg?raw=true "Pay Bill")
+![Alt text](/Screenshots/ViewTransactions.jpg?raw=true "View Transactions")
