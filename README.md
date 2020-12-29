@@ -10,7 +10,7 @@ Clone the repo and import the project into Android Studio.
 **Allow microphone access to the app**
 
 ```
-Speak the word "Tutorial" for an audio guide on how to operate the app
+Speak the word "Tutorial" on first screen for an audio guide on how to operate the app
 Speak the word: "Help" for a verbal tutorial on the respective page
 
 Say "Delete" to remove last entered character
