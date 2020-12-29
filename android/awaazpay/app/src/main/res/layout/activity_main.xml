@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".HomeActivity">
+
+
+    <Switch
+        android:id="@+id/switchMainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:showText="false"
+        android:text="Voice "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signinMain"
+        android:layout_width="137dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="189dp"
+        android:background="#191919"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/signupMain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/signupMain"
+        android:layout_width="137dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="189dp"
+        android:background="#191919"
+        android:text="SIGN UP"
+        android:textColor="#00ff00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/signinMain"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="77dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/signinMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On the "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octave "
+            android:textColor="#00FF00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of Your"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Voice"
+            android:textColor="#00FF00"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="474dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Money"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" &amp; Pay Bills"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hassle"
+            android:textColor="#00FF00"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free"
+            android:textColor="#00FF00"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="188dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
