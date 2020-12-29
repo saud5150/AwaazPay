@@ -1,17 +1,27 @@
 # AwaazPay
 
+AwaazPay is a mobile banking android app for sending money and paying utility bills.
 
-## Voice Recognition Banking App
+## Installation
 
-Financial app which operates using Audio input from users, in addition to touch input.
-This app supports a complete touch-free experience for users with visual disabilities, or having a low literacy level.
-### Supported use cases are:
-#### Registration, Login, & Sending Money from One Peer to Another.
+Clone the repo and import the project into Android Studio.
 
-![Login Screen](/readmeImages/login_v2.JPG?raw=true "Login Screen")
-![Registration Screen](/readmeImages/registrationPage_v1.JPG?raw=true "Registration Screen")
-![Home Screen](/readmeImages/homeScreen_v3.JPG?raw=true "Home Screen with NavBar")
+## Usage
+**Allow microphone access to the app**
 
-### Technologies Used:
-#### Flutter
-#### Google Speech to Text API
+```
+Speak the word "Tutorial" for an audio guide on how to operate the app
+Speak the word: "Help" for a verbal tutorial on the respective page
+
+Say "Delete" to remove last entered character
+Say either a letter, or a word, to input text
+Say "Select [command]," where command is a button you want pressed
+```
+
+## Download the App
+Apk: https://getupdraft.com/getapp/91348425f50b439eb6bd2c3c16bef470
+
+Please allow 3rd party apps to install apk files.
+```
+Navigate to your Android settings menu then to the security settings. Enable the Install from Unknown Sources option.
+```
