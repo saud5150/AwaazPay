@@ -25,7 +25,7 @@ Please allow 3rd party apps to install apk files.
 
 Navigate to your Android settings menu then to the security settings. Enable the Install from Unknown Sources option.
 
-##Images
+## Images
 
 <img src="/Screenshots/Welcome.jpg" alt="Welcome Page" width="250"/> <img src="/Screenshots/SignUp.jpg" alt="SignUp Page" width="250"/> <img src="/Screenshots/Login.jpg" alt="Login Page" width="250"/> <img src="/Screenshots/OptionMenu.jpg" alt="Menu Page" width="250"/> <img src="/Screenshots/SendMoney.jpg" alt="Send Money Page" width="250"/>
 <img src="/Screenshots/PayBill.jpg" alt="Pay Bill Page" width="250"/> <img src="/Screenshots/ViewTransactions.jpg" alt="View Transactions Page" width="250"/>
